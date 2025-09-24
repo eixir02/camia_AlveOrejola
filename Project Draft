@@ -1,22 +1,41 @@
 Project title: Automated Attendance System 
 
 Problem Statement: 
-When it comes to attendance, there is still a use of manual and automated attendance tracking. Though it has reasonable efficiency, issues still arise from it. For attendance involving manual tracking, this method of attendance over relies on one or more people to check the attendance. On the other hand, the common automated attendance in the campus (QR) can only focus on checking attendance for one student every time, reducing the speed. This is more apparent when it is tracking attendance for a larger number of people such as a batch. 
-For this automated attendance system project, we will attempt to make an attendance system that addresses the following issues said earlier, ideally by allowing one to record their attendance and send it to the person handling it. However, features will be needed to avoid dishonest attendance recording. That way, the finished project would have less loopholes and prevent academic dishonesty (In this situation, “cheating” on attendance). 
+  When it comes to attendance, there is still a use of manual and automated attendance tracking. Though it has reasonable efficiency, issues still arise from it. For attendance involving manual tracking, this method of attendance over relies on one or more people to check the attendance. On the other hand, the common automated attendance in the campus (QR) can only focus on checking attendance for one student every time, reducing the speed. This is more apparent when it is tracking attendance for a larger number of people such as a batch. 
+  For this automated attendance system project, we will attempt to make an attendance system that addresses the following issues said earlier, ideally by allowing one to record their attendance and send it to the person handling it. However, features will be needed to avoid dishonest attendance recording. That way, the finished project would have less loopholes and prevent academic dishonesty (In this situation, “cheating” on attendance). 
 
 Project Objectives:
 •	Allow students to record their attendance instead of relying on a single person/object to do so.
-•	Additionally, add features to the attendance system that allows the one who created it to edit the attendance of others (In rare situations such as dishonest recording) 
+•	Consider input/output validation in attendance system to prevent dishonest attendance recording   
 Planned Features: 
 •	User(s) logging in and out of the project product through a database
-•	Option to (create, check, record) an attendance tracker
-•	Feature that utilizes the current time for checking attendance (Set date and time for when attendance checkers start and stop accepting attendance records)
-•	Settings feature (To change things such as time format, in trackers, methods of logging in, changing password etc.)
+•	Option to (create/check, record) an attendance tracker
+•	Feature that utilizes the current time for checking attendance 
+•	Settings feature 
 Planned Inputs and Outputs:
-(User) Input: Logging into the program
-(System) Output - Either the following:
-•	Displaying “Invalid account name or password.”
-• Display Options for attendnce tracking and settings	
 
+(User) Input: Successfully logging into the program
+(System) Output:
+• Display options for Attendnce tracking options and account settings
+• Display current time 
 
+(User) Input: Chooses the option to create an attendance tracker
+(System) Output:
+• Asks user to enter attendance tracker name, when to start and stop checking attendance and method of attendance (e.g, QR code, pin/password).
+(Example for start and stop checking attendance format: MM, DD, YYYY, from [Start Time] to [End Time]
+• Additionally asks user whether they want to modify attendance tracker 
+• Show user a preview of what their attendance trakcer (for attendee point of view)
 
+(User) Input: Checking attendance trackers (Made by the user)
+(System) Output:
+If user hasn't made any attendance trackers:
+• Program displays "No current attendance trackers you've made.
+Otherwise:
+• Program displays current attendance trackers made by user
+
+(User) Input: Checks overview of attendance tracker:
+(System) Output:
+Program displays the following:
+• Attendance tracker status (Not started, Ongoing, Ended)
+• Attendee entries and info (e.g, account name, time of attendance tracked)
+• Option to give comments from attendee entries
