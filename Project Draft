@@ -34,7 +34,7 @@ Planned Inputs and Outputs:
 2a.
 (User) Input: Successfully logging into the program
 (Program) Output:
-• Display options for Attendnce tracking options and account settings
+• Displays attendnce tracking options, account settings, and log out option.
 • Display current time 
 
 2b.
@@ -88,3 +88,9 @@ Program displays the following:
   • Attendance Record History
   • Preferences (e.g, Time Format)
   • Appearances and Notifications configuration
+
+8.
+(User) Input: Selects to log out
+(Program) Output:
+Program displays "Session ended."
+Program asks if user wants to log in back.
