@@ -64,7 +64,7 @@ Otherwise:
 Program displays the following:
 • Attendance tracker status (Not started, Ongoing, Ended)
 • Attendee entries and info (e.g, account name, time of attendance tracked)
-• Option to give comments from attendee entries
+• Option to give comments from attendee entries and change attendees' status
 
 6.
 (User) Input: Records their attendance for an attendence tracker
