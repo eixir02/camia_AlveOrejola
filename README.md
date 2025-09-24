@@ -5,7 +5,12 @@
 To Be Added
 
 ## Features
-To Be Added
+• Log in and log out program feature
+•	Option to (create/check, record) an attendance tracker
+•	Current time utulization for checking attendance 
+•	Settings feature
+• Notifications
+• "Forgot Password?" feature
 
 ## How to run the program
 1. Make sure you have Python installed.
