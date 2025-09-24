@@ -7,7 +7,7 @@ To Be Added
 ## Features
 • Log in and log out program feature
 
-• Option to (create/check, record) an attendance tracker
+• Option to (create/check, record) an attendance checker
 
 • Current time utulization for checking attendance 
 
