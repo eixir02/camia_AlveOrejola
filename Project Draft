@@ -18,18 +18,12 @@ Planned Features:
 •	Current time utulization for checking attendance 
 •	Settings feature
 • Notifications
-• "Forgot Password?" feature
 
 Planned Inputs and Outputs:
-1a.
+1.
 (User) Input: Opens Program
 (Program) Output:
 • Asks user for account name and password
-
-1b.
-(User) Input: Selects "Forgot Password?"
-(Program) Output:
-• Asks user for account name and email address to send password
 
 2a.
 (User) Input: Successfully logging into the program
