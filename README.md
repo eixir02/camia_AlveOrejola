@@ -14,8 +14,6 @@ To Be Added
 • Settings feature
  
 • Notifications
-
-• "Forgot Password?" feature
  
 ## How to run the program
 1. Make sure you have Python installed.
